@@ -199,12 +199,14 @@ footer p {
 /* ######################################################## */
 
 
-.row {
+.rowEquipe {
     display: flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
 }
-
+.rowEquipe div{
+    margin: 20px 0;
+}
 .width {
     width: 100%;
 }
@@ -224,6 +226,15 @@ aside {
 aside ol li a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (min-width: 768px) {
+    .rowEquipe div {
+        width: 45%;
+    }
+    .rowEquipe div img{
+        max-height: 293px;
+    }
 }
 
 
