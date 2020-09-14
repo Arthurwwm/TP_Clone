@@ -4,6 +4,8 @@
         <title>Notre Produit</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Normalize -->
+        <link rel="stylesheet" href="./css/normalize.css">
 
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
@@ -30,13 +32,46 @@
                     <li><a href="index.html">Notre Produit</a></li>
                     <li><a href="equipe.html">Equipe</a></li>
                     <li><a href="presse.html">Presse</a></li>
-                    <li><a href="faq.html">FAQ/a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                     <li><a href="rejoindre.html">Nous Rejoindre</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
-
+        <h2>Contactez-nous</h2>
+        <form action="GET">
+            <div>
+                <label for="nom">Nom : </label><input type="text" id="nom" placeholder="Clone-Bandit">
+            </div>
+            <div>
+                <label for="prenom">Prénom : </label><input type="text" id="prenom" placeholder="Daniel">
+            </div>
+            <div>
+                <label for="email"></label>E-mail : <input type="email" id="email" placeholder="nom@gmail.com">
+            </div>
+            <div>
+                <label for="postcode">Code Postal : </label><input type="number" pattern="{5}-[0-9]" placeholder="">
+            </div>
+            <div>
+                <label for="pays">Pays : </label><input type="text">
+            </div>
+            <div>
+                <label for="origin">Vous avez entendu parlé de nous via ? </label>
+                <br>
+                <input type="radio" name="media" id="media"><label for="media">Les medias</label>
+                <input type="radio" name="perso" id="perso"><label for="perso">Le bouche à oreille</label>
+                <input type="radio" name="social" id="social"><label for="social">Les réseaux sociaux</label>
+                <input type="radio" name="autre" id="autre"><label for="autre">Autre</label>
+            </div>
+            <div>
+                <label for="recontact">Date à laquelle vous souhaitez être recontacté(e) : </label><input type="date">
+            </div>
+            <div>
+                <label for="comment">La nature de votre demande : </label>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">ENVOYER</button>
+        </form>
         <!-- Footer -->
         <footer>
             <!-- Social icons -->
