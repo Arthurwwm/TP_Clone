@@ -191,6 +191,7 @@ footer p {
 
 /*GoToTop*/
 
+
 .toTop {
     position: fixed;
     width: 35px;
@@ -198,4 +199,7 @@ footer p {
     bottom: 50px;
     right: 50px;
     display: none;
+    background-color: transparent;
+    color: rgb(12, 60, 100);
+    font-size: 3em;
   }
