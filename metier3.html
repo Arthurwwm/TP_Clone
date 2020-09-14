@@ -4,7 +4,9 @@
         <title>Notre Produit</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <!-- Normalize -->
+        <link rel="stylesheet" href="./css/normalize.css">
+        
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
@@ -21,16 +23,19 @@
     <body>
         <!-- Header -->
         <header>
-            <div>
+            <div>        
                 <img src="./images/logo_Clonemipsum.png" alt="Clon'Em Ipsum">
-                <h1>Clon'Em Ipsum</h1>
+                <h1 class="absent">Clon'Em Ipsum</h1>
             </div>
-            <nav>
-                <ul>
+            <nav class="navbar">
+                <span class="navbar-toggle" id="navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <ul class="main-nav" id="menu">
                     <li><a href="index.html">Notre Produit</a></li>
                     <li><a href="equipe.html">Equipe</a></li>
                     <li><a href="presse.html">Presse</a></li>
-                    <li><a href="faq.html">FAQ/a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                     <li><a href="rejoindre.html">Nous Rejoindre</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
