@@ -194,6 +194,60 @@ footer p {
     }
 }
 
+/* ######################################################## */
+/* EQUIPE ################################################# */
+/* ######################################################## */
+
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.width {
+    width: 100%;
+}
+
+.padding {
+    padding: 1%;
+}
+
+aside {
+    padding: 5% 10%;
+    background-color: rgb(36, 139, 147);
+    width: 100%;
+    line-height: 2em;
+    
+}
+
+aside ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ######################################################## */
+/* FAQ #################################################### */
+/* ######################################################## */
+
+@media screen and (min-width: 768px) {
+
+    aside {
+        width: 30%;
+        padding: 3%;
+        border-radius: 10px;
+    }
+
+     article {
+         width: 60%;
+     }
+
+     article div {
+         line-height: 2em;
+     }
+    }
+}
 /*GoToTop*/
 
 
