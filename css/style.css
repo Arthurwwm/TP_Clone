@@ -4,7 +4,62 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+.text-center {
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div h1 {
+    display: none;
+}
+
+header nav {
+    width: 40%;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+/* Fin Header */
+
+/* Footer */
+footer div {
+    font-size: 2em;
+    padding: 1%;
+    background-color:rgb(12, 60, 100);
+}
+
+footer p {
+    padding: 2% 5%;
+    background: rgb(36, 139, 147);
+}
+/* Fin Footer */
+
+/* ######################################################## */
+/* INDEX ################################################## */
+/* ######################################################## */
+
 /* Slider */
 .slider{
     position: relative;
