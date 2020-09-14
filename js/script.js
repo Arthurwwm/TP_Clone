@@ -72,5 +72,4 @@ let navBarToggle = document.getElementById('navbar-toggle');
 navBarToggle.addEventListener('click', function () {
     
     mainNav.classList.toggle('actif');
-    navBarToggle.classList.toggle('absent');
 });
