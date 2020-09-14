@@ -63,4 +63,13 @@ var $slider = $(".slider"), $bullets = $(".bullets");
 			$(".bullet:nth-child("+index+")").addClass("active");
 		}
 		addBullets();
-		calculateHeight();	
+        calculateHeight();	
+//NavBar
+
+let mainNav = document.getElementById('menu');
+let navBarToggle = document.getElementById('navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+    
+    mainNav.classList.toggle('actif');
+});
