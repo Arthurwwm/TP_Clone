@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* Slider */
 .slider{
     position: relative;
@@ -129,3 +130,12 @@ opacity: 0.3;
     background: transparent;
 }
 /* Fin Slider */
+=======
+/* ######################################################## */
+/* RULES ################################################## */
+/* ######################################################## */
+
+* {
+    box-sizing: border-box;
+}
+>>>>>>> Stashed changes
