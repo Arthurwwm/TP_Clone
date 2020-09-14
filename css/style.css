@@ -191,3 +191,36 @@ opacity: 0.3;
     background: transparent;
 }
 /* Fin Slider */
+
+/* Navbar */
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+.actif {
+    display: block;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        align-items: center;
+    }
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+   .navbar-toggle {
+       display: none;
+    }
+}
